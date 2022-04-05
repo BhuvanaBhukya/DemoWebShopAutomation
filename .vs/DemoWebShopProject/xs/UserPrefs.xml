@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{DD1C277E-06D9-49FA-BA31-CFFCD45FFDB6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestClass.cs">
+    <Files>
+      <File FileName="TestClass.cs" Line="12" Column="17" />
+      <File FileName="PageObject/HomePage.cs" Line="71" Column="35" />
+      <File FileName="PageObject/CategoryPage.cs" Line="30" Column="1" />
+      <File FileName="PageObject/CheckOutPage/CheckOutPage.cs" Line="132" Column="120" />
+      <File FileName="BaseClass.cs/BaseTest.cs" />
+      <File FileName="packages.config" Line="1" Column="1" />
+      <File FileName="PageObject/OrderConfirmationPage/OrderConfirmationPage.cs" Line="2" Column="23" />
+      <File FileName="PageObject/LoginPage.cs" Line="39" Column="29" />
+      <File FileName="PageObject/ShoppingCartPage.cs" Line="21" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoWebShopProject" expanded="True" selected="True">
+            <Node name="DemoWebShop" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="BaseClass.cs" expanded="True" />
+              <Node name="PageObject" expanded="True">
+                <Node name="CategoryPage" expanded="True" />
+                <Node name="CheckOutPage" expanded="True" />
+                <Node name="HomePage" expanded="True" />
+                <Node name="LoginPage" expanded="True" />
+                <Node name="OrderConfirmationPage" expanded="True" />
+                <Node name="ShoppingCartPage" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DemoWebShop" expanded="True">
+            <Node name="DemoWebShop" expanded="True">
+              <Node name="DemoWebShop" expanded="True">
+                <Node name="TestClass" expanded="True">
+                  <Node name="TestSearch" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DemoWebShop PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

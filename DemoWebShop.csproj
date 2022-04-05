@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <PackOnBuild>true</PackOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BaseClass.cs\" />
+    <None Remove="Selenium.Support" />
+    <None Remove="Selenium.WebDriver" />
+    <None Remove="Selenium.WebDriver.ChromeDriver" />
+    <None Remove="PageObject\" />
+    <None Remove="SpecFlow" />
+    <None Remove="SpecFlow.Tools.MsBuild.Generation" />
+    <None Remove="SpecFlow.NUnit" />
+    <None Remove="NUnit3TestAdapter" />
+    <None Remove="PageObject\CheckOutPage\" />
+    <None Remove="PageObject\OrderConfirmationPage\" />
+    <None Remove="NUnit" />
+    <None Remove="Microsoft.NET.Test.Sdk" />
+    <None Remove="PageObject\LoginPage\" />
+    <None Remove="PageObject\HomePage\" />
+    <None Remove="PageObject\CategoryPage\" />
+    <None Remove="PageObject\ShoppingCartPage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BaseClass.cs\" />
+    <Folder Include="PageObject\" />
+    <Folder Include="PageObject\CheckOutPage\" />
+    <Folder Include="PageObject\OrderConfirmationPage\" />
+    <Folder Include="PageObject\LoginPage\" />
+    <Folder Include="PageObject\HomePage\" />
+    <Folder Include="PageObject\CategoryPage\" />
+    <Folder Include="PageObject\ShoppingCartPage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Feature File\Purchasing.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Purchasing.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature File\Feature.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Feature.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+    <SpecFlowFeatureFiles Update="Feature File\Purchase_FeatureFile.feature">
+      <Visible>False</Visible>
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Purchase_FeatureFile.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+    <PackageReference Include="Selenium.Support" Version="4.1.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="99.0.4844.5100" />
+  </ItemGroup>
+</Project>

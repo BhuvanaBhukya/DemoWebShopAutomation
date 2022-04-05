@@ -1,0 +1,10 @@
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/bin/Debug/DemoWebShop.dll
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/bin/Debug/DemoWebShop.pdb
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/bin/Debug/nunit.framework.dll
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/bin/Debug/nunit.framework.pdb
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/bin/Debug/nunit.framework.xml
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/obj/Debug/DemoWebShop.csproj.AssemblyReference.cache
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/obj/Debug/DemoWebShop.csproj.CoreCompileInputs.cache
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/obj/Debug/DemoWebShop.csproj.CopyComplete
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/obj/Debug/DemoWebShop.dll
+/Users/bhuvanasree/Projects/DemoWebShop/DemoWebShop/obj/Debug/DemoWebShop.pdb

@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{DD1C277E-06D9-49FA-BA31-CFFCD45FFDB6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestClass.cs">
+    <Files>
+      <File FileName="TestClass.cs" Line="76" Column="35" />
+      <File FileName="PageObject/HomePage.cs" />
+      <File FileName="PageObject/CategoryPage.cs" />
+      <File FileName="PageObject/CheckOutPage/CheckOutPage.cs" />
+      <File FileName="BaseClass.cs/BaseTest.cs" />
+      <File FileName="packages.config" />
+      <File FileName="PageObject/OrderConfirmationPage/OrderConfirmationPage.cs" />
+      <File FileName="PageObject/LoginPage.cs" />
+      <File FileName="PageObject/ShoppingCartPage.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoWebShop" expanded="True">
+            <Node name="DemoWebShop" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="BaseClass.cs" expanded="True" />
+              <Node name="PageObject" expanded="True">
+                <Node name="CheckOutPage" expanded="True" />
+                <Node name="OrderConfirmationPage" expanded="True" />
+              </Node>
+              <Node name="TestClass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DemoWebShop" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DemoWebShop PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
